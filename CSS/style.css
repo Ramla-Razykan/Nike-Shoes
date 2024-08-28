@@ -1,0 +1,213 @@
+/* 
+==========================
+       Font links 
+==========================
+  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* 
+  ========================== 
+        Basic Styles 
+  ==========================
+   */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+  ==========================
+         Header/Navbar Styles 
+  ==========================
+   */
+
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    padding: 12px 20px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    position: relative;
+    color: rgba(46, 46, 46, 1);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color1);
+    transition: 0.15s ease-in-out;
+}
+
+.menu li a:hover:after {
+    width: 100%;
+}
+
+.menu .btn button {
+    background-color: #d01c28;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    display: none;
+}
+
+.open-menu,
+.close-menu {
+    position: absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+#check {
+    display: none;
+}
+
+nav button {
+    background-color: #d01c28;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+/* 
+  ============================
+         Frame Work Styles 
+  ============================
+    */
+.frame-work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 5%;
+}
+
+.content {
+    width: Hug (595px)px;
+    height: Hug (613px)px;
+    gap: 36px;
+    opacity: 0px;
+
+}
+
+#text-1 {
+    font-size: 110px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+#text-2 {
+    width: 704px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #5A5959;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+}
+
+#button-1 {
+    background-color: #d01c28;
+    color: white;
+}
+
+#button-2 {
+    background-color: white;
+    color: #5A5959;
+    border: 1px solid #5A5959;
+}
+
+.shop {
+    margin-top: 30px;
+}
+
+#shop-text {
+    color: #5A5959;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+}
+
+.shops {
+    margin-top: 20px;
+}
+
+.shops img {
+    margin-right: 10px;
+    width: 50px;
+}
+
+#shoe-img {
+    max-width: 45%;
+    filter: drop-shadow(13px 25px 10px rgba(0, 0, 0, 0.6));
+}

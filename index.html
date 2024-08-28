@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shoes</title>
+    <!-- External Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Our CSS Links -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <!-- Animation Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header/Nav Work -->
+    <nav>
+        <ul class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo" id="logo">
+            </div>
+            <input type="checkbox" id="check">
+            <span class="menu">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Location</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <div class="btn">
+                    <button>Login</button>
+                </div>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+        <button>Login</button>
+    </nav>
+
+
+    <!--     <header>
+    <nav>
+        <ul class='nav-bar'>
+            <li class='logo'><a href='#'><img src='./images/logo.png'/></a></li>
+            <input type='checkbox' id='check' />
+            <span class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+            </span>
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+        </ul>
+    </nav>
+    </header> -->
+
+    <!-- Frame Work -->
+    <div class="frame-work">
+        <div class="content">
+            <p id="text-1" data-aos="fade-right">Your feet deserve the best</p>
+            <p id="text-2" data-aos="fade-right">Your feet deserve the best and we're here to help you with our shoes.
+                Your feet deserve the
+                best and we're here to help you with our shoes.</p>
+            <div class="buttons">
+                <button id="button-1" data-aos="zoom-in">Shop Now</button>
+                <button id="button-2" data-aos="zoom-in">Category</button>
+            </div>
+            <div class="shop">
+                <p id="shop-text">Also Available On</p>
+                <div class="shops">
+                    <img src="img/flipkart.png" alt="Flipkart" id="flipkart">
+                    <img src="img/amazon.png" alt="Amazon" id="amazon">
+                </div>
+            </div>
+        </div>
+        <img src="img/shoe-img.jpg" alt="Shoe-img" id="shoe-img" data-aos="zoom-in-up">
+    </div>
+
+    <!-- Animation Link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

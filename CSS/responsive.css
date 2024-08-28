@@ -1,0 +1,292 @@
+@media (max-width: 950px) {
+    #text-1 {
+        font-size: 4rem;
+    }
+
+    #text-2 {
+        font-size: 0.875rem;
+        width: 400px;
+    }
+}
+
+@media (max-width: 900px) {
+    #text-1 {
+        font-size: 4rem;
+    }
+
+    #text-2 {
+        font-size: 0.875rem;
+        width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .frame-work {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+
+    #shoe-img {
+        max-width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 758px) {
+    #text-1 {
+        font-size: 3.7rem;
+    }
+
+    #text-2 {
+        font-size: 1rem;
+        width: 550px;
+        margin-left: 3.5rem;
+    }
+}
+
+@media (max-width: 740px) {
+    #text-1 {
+        font-size: 3.7rem;
+    }
+
+    #text-2 {
+        font-size: 1rem;
+        width: 550px;
+    }
+
+    .buttons button {
+        padding: 8px 12px;
+    }
+
+    .shops {
+        margin-top: 10px;
+    }
+
+    .shops img {
+        width: 38px;
+    }
+}
+
+@media (max-width: 720px) {
+    #text-1 {
+        font-size: 3.7rem;
+    }
+
+    #text-2 {
+        font-size: 1rem;
+        width: 550px;
+        margin-left: 3.5rem;
+    }
+
+    .buttons button {
+        padding: 8px 12px;
+    }
+
+    .shops {
+        margin-top: 10px;
+    }
+
+    .shops img {
+        width: 38px;
+    }
+}
+
+@media (max-width: 700px) {
+    #text-1 {
+        font-size: 3.7rem;
+    }
+
+    #text-2 {
+        font-size: 1rem;
+        width: 500px;
+        margin-left: 2.6rem;
+    }
+
+    .buttons button {
+        padding: 6px 12px;
+    }
+
+    .shops {
+        margin-top: 10px;
+    }
+
+    .shops img {
+        width: 38px;
+    }
+}
+
+@media (max-width: 648px) {
+    #text-1 {
+        font-size: 3.7rem;
+    }
+
+    #text-2 {
+        font-size: 1rem;
+        width: 500px;
+        margin-left: 2.6rem;
+    }
+
+    .buttons button {
+        padding: 6px 12px;
+    }
+
+    .shops {
+        margin-top: 10px;
+    }
+
+    .shops img {
+        width: 38px;
+    }
+}
+
+@media (max-width: 590px) {
+    #text-1 {
+        font-size: 3.5rem;
+    }
+
+    #text-2 {
+        font-size: 0.875rem;
+        width: 450px;
+        margin-left: 2.6rem;
+    }
+}
+
+@media (max-width: 580px) {
+    #text-1 {
+        font-size: 2.5rem;
+    }
+
+    #text-2 {
+        font-size: 0.875rem;
+        width: 400px;
+        margin-left: 2.6rem;
+    }
+
+    .buttons button {
+        padding: 8px 14px;
+    }
+
+    .shops {
+        margin-top: 10px;
+    }
+
+    .shops img {
+        width: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    #text-1 {
+        font-size: 2rem;
+    }
+
+    #text-2 {
+        font-size: 0.875rem;
+        width: 400px;
+        margin-left: 0.8rem;
+    }
+
+    .buttons button {
+        padding: 8px 16px;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 450px) {
+    #text-2 {
+        font-size: 0.875rem;
+        width: 300px;
+        margin-left: 2.3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    #text-2 {
+        font-size: 0.875rem;
+        width: 300px;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    #text-2 {
+        font-size: 0.875rem;
+        width: 300px;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    #text-2 {
+        font-size: 0.675rem;
+        width: 220px;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 330px) {
+    #text-2 {
+        font-size: 0.950rem;
+        width: 300px;
+        margin-left: 0.4rem;
+    }
+}
+
+@media (max-width: 316px) {
+    #text-1 {
+        font-size: 1.8rem;
+    }
+
+    #text-2 {
+        font-size: 0.750rem;
+        width: 280px;
+        margin-left: 0.4rem;
+    }
+}
+
+
+
+@media(max-width: 610px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: #fff;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu li {
+        margin-top: 40px;
+    }
+
+    .menu li a {
+        padding: 10px;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
+
+    .menu .btn button{
+        display: block;
+    }
+
+    nav button{
+        display: none;
+    }
+}
